@@ -33,5 +33,5 @@ def student_handle(input_str: str, state: dict) -> dict:
         state['messages'] = []
         return {'output': 'Cleared', 'state': state}
 
-
     return {'output': "I don't understand that command.", 'state': state}
+    

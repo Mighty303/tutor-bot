@@ -228,9 +228,9 @@ Make the tasks progressively harder by editing `levels/*.json`.
 {
   "title": "Loops: iterate fake members",
   "description": "Given a fake members list in state, print numbered names.",
-  "setup_state": {"members": ["Alice", "Bob", "Charlie"]},
+  "setup_state": {"members": ["Nina", "Megan", "Martin"]},
   "tests": [
-    {"input": "list_members", "expected_output_contains": "1. Alice"}
+    {"input": "list_members", "expected_output_contains": "1. Nina"}
   ]
 }
 ```
@@ -255,7 +255,7 @@ Make the tasks progressively harder by editing `levels/*.json`.
   "title": "Functions: break logic into helpers",
   "description": "Refactor repetitive tasks into helper functions.",
   "tests": [
-    {"input": "greet Alice", "expected_output_contains": "Hello Alice"}
+    {"input": "greet Nina", "expected_output_contains": "Hello Nina"}
   ]
 }
 ```
