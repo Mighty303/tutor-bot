@@ -1,0 +1,8 @@
+{
+    "title": "Lists: add/remove users",
+    "description": "Add or remove from a list in state",
+    "tests": [
+        {"input": "add_user Zoe", "expected_output_contains": "Zoe"},
+        {"input": "remove_user Zoe", "expected_output_contains": "removed"}
+    ]
+}

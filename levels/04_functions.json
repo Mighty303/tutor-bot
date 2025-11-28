@@ -1,0 +1,7 @@
+{
+    "title": "Functions: break logic into helpers",
+    "description": "Refactor repetitive tasks into helper functions.",
+    "tests": [
+        {"input": "greet Alice", "expected_output_contains": "Hello Alice"}
+    ]
+}

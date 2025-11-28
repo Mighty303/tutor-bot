@@ -1,0 +1,6 @@
+.env
+state.json
+__pycache__/
+.vscode/
+.DS_Store
+venv/

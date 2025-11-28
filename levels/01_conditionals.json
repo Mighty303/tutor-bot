@@ -1,0 +1,8 @@
+{
+    "title": "Conditionals: ping/pong and command detection",
+    "description": "Detect ping and commands starting with !",
+    "tests": [
+    {"input": "ping", "expected_output_contains": "pong"},
+    {"input": "!help", "expected_output_contains": "command"}
+    ]
+}
