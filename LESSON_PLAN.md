@@ -22,7 +22,7 @@ After making changes to `student_code.py`, you can test in two ways:
 **Task**: Complete the `is_command()` function to return `True` if the text starts with `!`.
 
 ```python
-def is_command(text: str) -> bool:
+def is_command(text):
     # TODO: return True if text starts with '!'
     pass
 ```
@@ -45,7 +45,7 @@ Output: "I don't understand."
 **Task**: Complete the `handle_ping()` function to return `"pong"` when input is `"ping"`.
 
 ```python
-def handle_ping(text: str) -> str:
+def handle_ping(text):
     # TODO: if text == 'ping', return 'pong'
     # otherwise return something else
     pass
@@ -108,7 +108,7 @@ Output: "pong"
 **Task**: When the user sends `"list_members"`, loop through a list of fake members in state and print them numbered.
 
 ```python
-def student_handle(input_str: str, state: dict) -> dict:
+def student_handle(input_str, state):
     if state is None:
         state = {}
     
